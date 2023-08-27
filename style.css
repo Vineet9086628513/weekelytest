@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, black, white, black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+}
+
+#whiteboard {
+  border: 2px solid #000;
+  background-color: #fff;
+  cursor: crosshair;
+}
+
+#controls {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+#deleteButton {
+  font-size: 30px;
+  border: 2px solid black;
+}
+#undoButton {
+  font-size: 30px;
+  border: 2px solid black;
+}
